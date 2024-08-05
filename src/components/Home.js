@@ -1,28 +1,27 @@
 import React from "react";
 import Navbar from "./Navbar";
-import Footer from "./Footer";
 
 const Home = () => {
   return (
     <>
       <Navbar />
-      <div class="bg-accentBorderInverseSecondary, full-hero">
-        <section class="section bg-accentPrimary">
-          <div class="m-auto max-w-screen-2xl overflow-hidden px-6 md:px-10 lg:px-14">
-            <h1 class="font-bold leading-heading m-0 p-0 w-auto tracking-tight md:tracking-tighter top-32 z-1 pt-12 leading-small text-center text-[50px] text-textInverseHighlight md:relative md:top-[72px] lg:top-32 md:p-0 md:text-4xl lg:text-[118px]">
+      <div className="bg-accentBorderInverseSecondary, full-hero">
+        <section className="section bg-accentPrimary">
+          <div className="m-auto max-w-screen-2xl overflow-hidden px-6 md:px-10 lg:px-14">
+            <h1 className="font-bold leading-heading m-0 p-0 w-auto tracking-tight md:tracking-tighter top-32 z-1 pt-12 leading-small text-center text-[50px] text-textInverseHighlight md:relative md:top-[72px] lg:top-32 md:p-0 md:text-5xl lg:text-[118px]">
               Mortgages
               <br />
               made simple
             </h1>
-            <div class="relative flex flex-col items-center justify-center md:flex-row">
-              <div class="w-80 md:w-auto">
+            <div className="relative flex flex-col items-center justify-center md:flex-row">
+              <div className="w-80 md:w-auto">
                 <a
-                  class="inline-flex items-center justify-center whitespace-nowrap rounded-full text-base font-bold leading-normal disabled:pointer-events-none disabled:opacity-50 transition-all ease-in-out duration-200 bg-graphTertiary text-interactiveForegroundInversePrimary hover:bg-accentPrimary hover:text-interactiveForegroundPrimary h-16 px-12 py-5 mt-lg w-full md:mt-none md:w-fit"
+                  className="inline-flex items-center justify-center whitespace-nowrap rounded-full text-base font-bold leading-normal disabled:pointer-events-none disabled:opacity-50 transition-all ease-in-out duration-200 bg-graphTertiary text-interactiveForegroundInversePrimary hover:bg-accentPrimary hover:text-interactiveForegroundPrimary h-16 px-12 py-5 mt-lg w-full md:mt-none md:w-fit"
                   href="/start"
                 >
                   Start my approval
                 </a>
-                <div class="mt-3 flex items-center justify-center gap-1 text-sm text-accentSecondary">
+                <div className="mt-3 flex items-center justify-center gap-1 text-sm text-accentSecondary">
                   <svg
                     width="20"
                     height="20"
@@ -32,18 +31,18 @@ const Home = () => {
                   >
                     <path
                       d="M7.5 6H8.5V10.5H7.5V6ZM6.5 1.5H9.5V2.5H6.5V1.5Z"
-                      class="fill-accentSecondary"
+                      className="fill-accentSecondary"
                     ></path>
                     <path
-                      class="fill-accentSecondary"
+                      className="fill-accentSecondary"
                       d="M13.9987 5.00055L13.2887 4.29555L12.1637 5.42055C11.2429 4.35706 9.94762 3.68926 8.54717 3.5559C7.14671 3.42254 5.74872 3.83386 4.64365 4.70442C3.53857 5.57497 2.81139 6.83782 2.61318 8.23057C2.41497 9.62333 2.76098 11.0389 3.57931 12.1832C4.39765 13.3275 5.62539 14.1125 7.00745 14.3751C8.3895 14.6377 9.81961 14.3578 11.0006 13.5934C12.1817 12.8291 13.0228 11.6391 13.3493 10.2707C13.6758 8.90233 13.4625 7.46077 12.7537 6.24554L13.9987 5.00055ZM7.99875 13.5005C7.10873 13.5005 6.2387 13.2366 5.49868 12.7422C4.75866 12.2477 4.18189 11.5449 3.84129 10.7226C3.5007 9.90035 3.41158 8.99555 3.58522 8.12264C3.75885 7.24972 4.18743 6.4479 4.81677 5.81856C5.44611 5.18923 6.24793 4.76064 7.12084 4.58701C7.99376 4.41338 8.89856 4.50249 9.72082 4.84309C10.5431 5.18368 11.2459 5.76046 11.7404 6.50048C12.2348 7.2405 12.4987 8.11053 12.4987 9.00055C12.4987 10.194 12.0246 11.3386 11.1807 12.1825C10.3368 13.0264 9.19222 13.5005 7.99875 13.5005Z"
                     ></path>
                   </svg>
-                  <span class="mr-1">3 min</span>
+                  <span className="mr-1">3 min</span>
                   <span>| No credit impact</span>
                 </div>
               </div>
-              <div class="mt-5 md:mb-[-36px] md:mt-0">
+              <div className="mt-5 md:mb-[-36px] md:mt-0">
                 <img
                   alt="Better Mortgage"
                   rel="preload"
@@ -56,8 +55,8 @@ const Home = () => {
                   src="https://media.better.com/better-com/homepage/hero-variant-c.webp"
                 />
               </div>
-              <div class="rounded-base absolute bottom-8 bg-backgroundInversePrimary px-3 py-2.5 md:relative md:bg-transparent md:mt-lg">
-                <div class="flex items-center gap-2">
+              <div className="rounded-base absolute bottom-8 bg-backgroundInversePrimary px-3 py-2.5 md:relative md:bg-transparent md:mt-lg">
+                <div className="flex items-center gap-2">
                   <svg
                     width="24"
                     height="24"
@@ -65,7 +64,7 @@ const Home = () => {
                     fill="none"
                     xmlns="http://www.w3.org/2000/svg"
                   >
-                    <g clip-path="url(#clip0_328_5133)">
+                    <g clipPath="url(#clip0_328_5133)">
                       <path
                         d="M23.9998 12.2755C23.9998 11.4598 23.9324 10.6397 23.7884 9.83716H12.2405V14.4581H18.8534C18.579 15.9485 17.6973 17.2669 16.4062 18.1047V21.103H20.3515C22.6683 19.013 23.9998 15.9264 23.9998 12.2755Z"
                         fill="#4285F4"
@@ -89,7 +88,7 @@ const Home = () => {
                       </clipPath>
                     </defs>
                   </svg>
-                  <div class="flex items-center">
+                  <div className="flex items-center">
                     <svg
                       width="25"
                       height="24"
@@ -156,25 +155,25 @@ const Home = () => {
                     </svg>
                   </div>
                 </div>
-                <div class="mt-1 text-xs text-interactiveSecondary">
+                <div className="mt-1 text-xs text-interactiveSecondary">
                   4.6 Stars | 3177Google reviews
                 </div>
               </div>
             </div>
           </div>
         </section>
-        <section class="section m-auto flex max-w-screen-2xl flex-col justify-between gap-x-3xl p-base px-lg py-4xl md:px-10 md:flex-row-reverse xl:p-[120px]">
-          <div class="flex flex-col justify-center md:max-w-[507px]">
-            <h2 class="font-bold text-textPrimary leading-heading m-0 p-0 w-auto tracking-tight md:tracking-tighter mb-lg text-3xl leading-small md:text-3xl lg:text-[88px]">
+        <section className="section m-auto flex max-w-screen-2xl flex-col justify-between gap-x-3xl p-base px-lg py-4xl md:px-10 md:flex-row-reverse xl:p-[120px]">
+          <div className="flex flex-col justify-center md:max-w-[507px]">
+            <h2 className="font-bold text-textPrimary leading-heading m-0 p-0 w-auto tracking-tight md:tracking-tighter mb-lg text-3xl leading-small md:text-3xl lg:text-[88px]">
               Find out why we’re better.
             </h2>
             <a
-              class="inline-flex items-center justify-center whitespace-nowrap rounded-full text-base font-bold leading-normal disabled:pointer-events-none disabled:opacity-50 transition-all ease-in-out duration-200 bg-accentPrimary text-interactiveForegroundPrimary hover:bg-backgroundInverseSecondary h-16 px-12 py-5 mb-sm w-full md:w-fit"
+              className="inline-flex items-center justify-center whitespace-nowrap rounded-full text-base font-bold leading-normal disabled:pointer-events-none disabled:opacity-50 transition-all ease-in-out duration-200 bg-accentPrimary text-interactiveForegroundPrimary hover:bg-backgroundInverseSecondary h-16 px-12 py-5 mb-sm w-full md:w-fit"
               href="/about-us/"
             >
               See all our stories
             </a>
-            <div class="mb-2xl flex items-end justify-center gap-sm leading-small text-textSecondary md:justify-start">
+            <div className="mb-2xl flex items-end justify-center gap-sm leading-small text-textSecondary md:justify-start">
               <svg
                 width="90"
                 height="23"
@@ -219,19 +218,19 @@ const Home = () => {
               </span>
             </div>
           </div>
-          <div class="flex flex-col gap-lg md:flex-col-reverse">
-            <div class="flex gap-x-base overflow-scroll [&amp;::-webkit-scrollbar]:hidden">
-              <button class="inline-flex items-center justify-center whitespace-nowrap rounded-full text-base font-bold leading-normal disabled:pointer-events-none disabled:opacity-50 transition-all ease-in-out duration-200 border hover:shadow-accentBorderSecondary hover:border-accentBorderSecondary hover:shadow-[0_0_0_4px_inset] hover:text-interactivePrimary h-12 px-6 py-3 w-auto shadow-accentBorderSecondary border-accentBorderSecondary shadow-[0_0_0_4px_inset] text-interactivePrimary">
+          <div className="flex flex-col gap-lg md:flex-col-reverse">
+            <div className="flex gap-x-base overflow-scroll [&amp;::-webkit-scrollbar]:hidden">
+              <button className="inline-flex items-center justify-center whitespace-nowrap rounded-full text-base font-bold leading-normal disabled:pointer-events-none disabled:opacity-50 transition-all ease-in-out duration-200 border hover:shadow-accentBorderSecondary hover:border-accentBorderSecondary hover:shadow-[0_0_0_4px_inset] hover:text-interactivePrimary h-12 px-6 py-3 w-auto shadow-accentBorderSecondary border-accentBorderSecondary shadow-[0_0_0_4px_inset] text-interactivePrimary">
                 Arian
               </button>
-              <button class="inline-flex items-center justify-center whitespace-nowrap rounded-full text-base font-bold leading-normal disabled:pointer-events-none disabled:opacity-50 transition-all ease-in-out duration-200 border border-strokeDivider text-interactiveForegroundInversePrimary hover:shadow-accentBorderSecondary hover:border-accentBorderSecondary hover:shadow-[0_0_0_4px_inset] hover:text-interactivePrimary h-12 px-6 py-3 w-auto">
+              <button className="inline-flex items-center justify-center whitespace-nowrap rounded-full text-base font-bold leading-normal disabled:pointer-events-none disabled:opacity-50 transition-all ease-in-out duration-200 border border-strokeDivider text-interactiveForegroundInversePrimary hover:shadow-accentBorderSecondary hover:border-accentBorderSecondary hover:shadow-[0_0_0_4px_inset] hover:text-interactivePrimary h-12 px-6 py-3 w-auto">
                 Amanda
               </button>
-              <button class="inline-flex items-center justify-center whitespace-nowrap rounded-full text-base font-bold leading-normal disabled:pointer-events-none disabled:opacity-50 transition-all ease-in-out duration-200 border border-strokeDivider text-interactiveForegroundInversePrimary hover:shadow-accentBorderSecondary hover:border-accentBorderSecondary hover:shadow-[0_0_0_4px_inset] hover:text-interactivePrimary h-12 px-6 py-3 w-auto">
+              <button className="inline-flex items-center justify-center whitespace-nowrap rounded-full text-base font-bold leading-normal disabled:pointer-events-none disabled:opacity-50 transition-all ease-in-out duration-200 border border-strokeDivider text-interactiveForegroundInversePrimary hover:shadow-accentBorderSecondary hover:border-accentBorderSecondary hover:shadow-[0_0_0_4px_inset] hover:text-interactivePrimary h-12 px-6 py-3 w-auto">
                 Paul
               </button>
             </div>
-            <div class="flex justify-center gap-x-base overflow-hidden rounded-lg">
+            <div className="flex justify-center gap-x-base overflow-hidden rounded-lg">
               <img
                 alt="Arian-tab"
                 rel="preconnect"
@@ -246,43 +245,43 @@ const Home = () => {
             </div>
           </div>
         </section>
-        <section class="section w-full pb-base lg:pb-12">
-          <div class="m-auto flex max-w-screen-2xl flex-col items-center md:items-start gap-8 px-6 py-20 md:px-10 lg:gap-[60px]">
-            <div class="justify-left flex w-full max-w-lg flex-wrap gap-12 lg:gap-6 lg:max-w-none lg:items-end lg:justify-between">
-              <h2 class="font-bold text-textPrimary leading-heading m-0 p-0 text-xl md:text-2xl md:tracking-tight w-full max-w-lg !text-3xl tracking-tight">
+        <section className="section w-full pb-base lg:pb-12">
+          <div className="m-auto flex max-w-screen-2xl flex-col items-center md:items-start gap-8 px-6 py-20 md:px-10 lg:gap-[60px]">
+            <div className="justify-left flex w-full max-w-lg flex-wrap gap-12 lg:gap-6 lg:max-w-none lg:items-end lg:justify-between">
+              <h2 className="font-bold text-textPrimary leading-heading m-0 p-0 text-xl md:text-2xl md:tracking-tight w-full max-w-lg !text-3xl tracking-tight">
                 Got questions?
                 <br />
                 We've got answers
               </h2>
-              <div class="flex gap-3 overflow-x-scroll lg:gap-6 [&amp;::-webkit-scrollbar]:w-0 [&amp;::-webkit-scrollbar]:h-0">
-                <button class="inline-flex items-center justify-center whitespace-nowrap rounded-full text-base font-bold leading-normal disabled:pointer-events-none disabled:opacity-50 transition-all ease-in-out duration-200 border hover:shadow-accentBorderSecondary hover:border-accentBorderSecondary hover:shadow-[0_0_0_4px_inset] hover:text-interactivePrimary h-12 px-6 py-3 w-auto shadow-accentBorderSecondary border-accentBorderSecondary shadow-[0_0_0_4px_inset] text-interactivePrimary">
+              <div className="flex gap-3 overflow-x-scroll lg:gap-6 [&amp;::-webkit-scrollbar]:w-0 [&amp;::-webkit-scrollbar]:h-0">
+                <button className="inline-flex items-center justify-center whitespace-nowrap rounded-full text-base font-bold leading-normal disabled:pointer-events-none disabled:opacity-50 transition-all ease-in-out duration-200 border hover:shadow-accentBorderSecondary hover:border-accentBorderSecondary hover:shadow-[0_0_0_4px_inset] hover:text-interactivePrimary h-12 px-6 py-3 w-auto shadow-accentBorderSecondary border-accentBorderSecondary shadow-[0_0_0_4px_inset] text-interactivePrimary">
                   Our products
                 </button>
-                <button class="inline-flex items-center justify-center whitespace-nowrap rounded-full text-base font-bold leading-normal disabled:pointer-events-none disabled:opacity-50 transition-all ease-in-out duration-200 border border-strokeDivider text-interactiveForegroundInversePrimary hover:shadow-accentBorderSecondary hover:border-accentBorderSecondary hover:shadow-[0_0_0_4px_inset] hover:text-interactivePrimary h-12 px-6 py-3 w-auto">
+                <button className="inline-flex items-center justify-center whitespace-nowrap rounded-full text-base font-bold leading-normal disabled:pointer-events-none disabled:opacity-50 transition-all ease-in-out duration-200 border border-strokeDivider text-interactiveForegroundInversePrimary hover:shadow-accentBorderSecondary hover:border-accentBorderSecondary hover:shadow-[0_0_0_4px_inset] hover:text-interactivePrimary h-12 px-6 py-3 w-auto">
                   Calculators
                 </button>
-                <button class="inline-flex items-center justify-center whitespace-nowrap rounded-full text-base font-bold leading-normal disabled:pointer-events-none disabled:opacity-50 transition-all ease-in-out duration-200 border border-strokeDivider text-interactiveForegroundInversePrimary hover:shadow-accentBorderSecondary hover:border-accentBorderSecondary hover:shadow-[0_0_0_4px_inset] hover:text-interactivePrimary h-12 px-6 py-3 w-auto">
+                <button className="inline-flex items-center justify-center whitespace-nowrap rounded-full text-base font-bold leading-normal disabled:pointer-events-none disabled:opacity-50 transition-all ease-in-out duration-200 border border-strokeDivider text-interactiveForegroundInversePrimary hover:shadow-accentBorderSecondary hover:border-accentBorderSecondary hover:shadow-[0_0_0_4px_inset] hover:text-interactivePrimary h-12 px-6 py-3 w-auto">
                   Guides &amp; FAQs
                 </button>
               </div>
             </div>
-            <div class="flex flex-row flex-wrap justify-center gap-8 lg:gap-6">
+            <div className="flex flex-row flex-wrap justify-center gap-8 lg:gap-6">
               <a
                 href="/content/buying-your-first-home-with-better-mortgage"
-                class="flex w-full max-w-lg cursor-pointer flex-col gap-8 rounded-base bg-successBackground px-6 py-5 md:flex-row md:[&amp;>img]:h-[100%] md:[&amp;>img]:max-w-[285px] md:gap-10 md:max-w-full md:justify-between md:px-12 md:py-8 lg:flex-1 lg:flex-col lg:basis-1/4 lg:justify-between lg:gap-6 lg:px-12 lg:py-[35px] lg:max-w-lg lg:[&amp;>img]:max-w-none lg:[&amp;:nth-child(2)>*]:flex-1 lg:[&amp;:nth-child(2)>img]:h-[100%] lg:[&amp;:nth-child(2)>img]:max-w-[285px] lg:[&amp;:nth-child(2)]:max-w-none lg:[&amp;:nth-child(2)]:basis-3/5 lg:[&amp;:nth-child(2)]:flex-row lg:[&amp;:nth-child(2)]:gap-10 lg:[&amp;:nth-child(3)>*]:flex-1 lg:[&amp;:nth-child(3)>img]:h-[100%] lg:[&amp;:nth-child(3)>img]:max-w-[285px] lg:[&amp;:nth-child(3)]:max-w-none lg:[&amp;:nth-child(3)]:basis-3/5 lg:[&amp;:nth-child(3)]:flex-row-reverse lg:[&amp;:nth-child(3)]:gap-10"
+                className="flex w-full max-w-lg cursor-pointer flex-col gap-8 rounded-base bg-successBackground px-6 py-5 md:flex-row md:[&amp;>img]:h-[100%] md:[&amp;>img]:max-w-[285px] md:gap-10 md:max-w-full md:justify-between md:px-12 md:py-8 lg:flex-1 lg:flex-col lg:basis-1/4 lg:justify-between lg:gap-6 lg:px-12 lg:py-[35px] lg:max-w-lg lg:[&amp;>img]:max-w-none lg:[&amp;:nth-child(2)>*]:flex-1 lg:[&amp;:nth-child(2)>img]:h-[100%] lg:[&amp;:nth-child(2)>img]:max-w-[285px] lg:[&amp;:nth-child(2)]:max-w-none lg:[&amp;:nth-child(2)]:basis-3/5 lg:[&amp;:nth-child(2)]:flex-row lg:[&amp;:nth-child(2)]:gap-10 lg:[&amp;:nth-child(3)>*]:flex-1 lg:[&amp;:nth-child(3)>img]:h-[100%] lg:[&amp;:nth-child(3)>img]:max-w-[285px] lg:[&amp;:nth-child(3)]:max-w-none lg:[&amp;:nth-child(3)]:basis-3/5 lg:[&amp;:nth-child(3)]:flex-row-reverse lg:[&amp;:nth-child(3)]:gap-10"
               >
-                <div class="flex flex-col gap-6">
-                  <h4 class="font-bold leading-heading m-0 p-0 w-auto md:text-2xl text-xl md:tracking-normal tracking-normal text-backgroundInversePrimary lg:text-xl">
+                <div className="flex flex-col gap-6">
+                  <h4 className="font-bold leading-heading m-0 p-0 w-auto md:text-2xl text-xl md:tracking-normal tracking-normal text-backgroundInversePrimary lg:text-xl">
                     Buying your first home with Better
                   </h4>
-                  <div class="flex items-end justify-between">
-                    <div class="group">
+                  <div className="flex items-end justify-between">
+                    <div className="group">
                       <svg
                         width="48"
                         height="49"
                         viewBox="0 0 48 49"
                         fill="none"
-                        class="transition ease-universal duration-300 fill-transparent hover:fill-[#004733] [&amp;_path]:fill-[#004733] group-hover:[&amp;_path]:fill-white [&amp;_rect]:stroke-[#A4A8A4] group-hover:[&amp;_rect]:stroke-none"
+                        className="transition ease-universal duration-300 fill-transparent hover:fill-[#004733] [&amp;_path]:fill-[#004733] group-hover:[&amp;_path]:fill-white [&amp;_rect]:stroke-[#A4A8A4] group-hover:[&amp;_rect]:stroke-none"
                         xmlns="http://www.w3.org/2000/svg"
                       >
                         <rect
@@ -309,33 +308,33 @@ const Home = () => {
                   height="200"
                   decoding="async"
                   data-nimg="1"
-                  class="w-full rounded-base object-cover h-[160px] md:h-[130px]"
+                  className="w-full rounded-base object-cover h-[160px] md:h-[130px]"
                   style={{ color: "transparent" }}
                   src="https://media.better.com/better-com/homepage/learning-center/first-home.webp"
                 />
               </a>
               <a
                 href="/b/one-day-mortgage"
-                class="flex w-full max-w-lg cursor-pointer flex-col gap-8 rounded-base bg-successBackground px-6 py-5 md:flex-row md:[&amp;>img]:h-[100%] md:[&amp;>img]:max-w-[285px] md:gap-10 md:max-w-full md:justify-between md:px-12 md:py-8 lg:flex-1 lg:flex-col lg:basis-1/4 lg:justify-between lg:gap-6 lg:px-12 lg:py-[35px] lg:max-w-lg lg:[&amp;>img]:max-w-none lg:[&amp;:nth-child(2)>*]:flex-1 lg:[&amp;:nth-child(2)>img]:h-[100%] lg:[&amp;:nth-child(2)>img]:max-w-[285px] lg:[&amp;:nth-child(2)]:max-w-none lg:[&amp;:nth-child(2)]:basis-3/5 lg:[&amp;:nth-child(2)]:flex-row lg:[&amp;:nth-child(2)]:gap-10 lg:[&amp;:nth-child(3)>*]:flex-1 lg:[&amp;:nth-child(3)>img]:h-[100%] lg:[&amp;:nth-child(3)>img]:max-w-[285px] lg:[&amp;:nth-child(3)]:max-w-none lg:[&amp;:nth-child(3)]:basis-3/5 lg:[&amp;:nth-child(3)]:flex-row-reverse lg:[&amp;:nth-child(3)]:gap-10"
+                className="flex w-full max-w-lg cursor-pointer flex-col gap-8 rounded-base bg-successBackground px-6 py-5 md:flex-row md:[&amp;>img]:h-[100%] md:[&amp;>img]:max-w-[285px] md:gap-10 md:max-w-full md:justify-between md:px-12 md:py-8 lg:flex-1 lg:flex-col lg:basis-1/4 lg:justify-between lg:gap-6 lg:px-12 lg:py-[35px] lg:max-w-lg lg:[&amp;>img]:max-w-none lg:[&amp;:nth-child(2)>*]:flex-1 lg:[&amp;:nth-child(2)>img]:h-[100%] lg:[&amp;:nth-child(2)>img]:max-w-[285px] lg:[&amp;:nth-child(2)]:max-w-none lg:[&amp;:nth-child(2)]:basis-3/5 lg:[&amp;:nth-child(2)]:flex-row lg:[&amp;:nth-child(2)]:gap-10 lg:[&amp;:nth-child(3)>*]:flex-1 lg:[&amp;:nth-child(3)>img]:h-[100%] lg:[&amp;:nth-child(3)>img]:max-w-[285px] lg:[&amp;:nth-child(3)]:max-w-none lg:[&amp;:nth-child(3)]:basis-3/5 lg:[&amp;:nth-child(3)]:flex-row-reverse lg:[&amp;:nth-child(3)]:gap-10"
               >
-                <div class="flex flex-col gap-6">
-                  <h4 class="font-bold leading-heading m-0 p-0 w-auto md:text-2xl text-xl md:tracking-normal tracking-normal text-backgroundInversePrimary lg:text-xl">
+                <div className="flex flex-col gap-6">
+                  <h4 className="font-bold leading-heading m-0 p-0 w-auto md:text-2xl text-xl md:tracking-normal tracking-normal text-backgroundInversePrimary lg:text-xl">
                     One Day Mortgage<sup>1</sup>
                   </h4>
-                  <p class="hidden flex-1 md:flex-none text-sm text-backgroundInversePrimary md:block">
+                  <p className="hidden flex-1 md:flex-none text-sm text-backgroundInversePrimary md:block">
                     Kick your home loan into hyperdrive. Going from locked rate
                     to Commitment Letter takes weeks for traditional lenders. We
                     do it in a single day. Traditional lenders deliver a
                     Commitment Letter in a few weeks.<sup>1</sup>
                   </p>
-                  <div class="flex items-end justify-between">
-                    <div class="group">
+                  <div className="flex items-end justify-between">
+                    <div className="group">
                       <svg
                         width="48"
                         height="49"
                         viewBox="0 0 48 49"
                         fill="none"
-                        class="transition ease-universal duration-300 fill-transparent hover:fill-[#004733] [&amp;_path]:fill-[#004733] group-hover:[&amp;_path]:fill-white [&amp;_rect]:stroke-[#A4A8A4] group-hover:[&amp;_rect]:stroke-none"
+                        className="transition ease-universal duration-300 fill-transparent hover:fill-[#004733] [&amp;_path]:fill-[#004733] group-hover:[&amp;_path]:fill-white [&amp;_rect]:stroke-[#A4A8A4] group-hover:[&amp;_rect]:stroke-none"
                         xmlns="http://www.w3.org/2000/svg"
                       >
                         <rect
@@ -362,33 +361,33 @@ const Home = () => {
                   height="200"
                   decoding="async"
                   data-nimg="1"
-                  class="w-full rounded-base object-cover h-[160px] md:h-[130px]"
+                  className="w-full rounded-base object-cover h-[160px] md:h-[130px]"
                   style={{ color: "transparent" }}
                   src="https://media.better.com/better-com/homepage/learning-center/one-day-mortgage.webp"
                 />
               </a>
               <a
                 href="/b/heloc"
-                class="flex w-full max-w-lg cursor-pointer flex-col gap-8 rounded-base bg-successBackground px-6 py-5 md:flex-row md:[&amp;>img]:h-[100%] md:[&amp;>img]:max-w-[285px] md:gap-10 md:max-w-full md:justify-between md:px-12 md:py-8 lg:flex-1 lg:flex-col lg:basis-1/4 lg:justify-between lg:gap-6 lg:px-12 lg:py-[35px] lg:max-w-lg lg:[&amp;>img]:max-w-none lg:[&amp;:nth-child(2)>*]:flex-1 lg:[&amp;:nth-child(2)>img]:h-[100%] lg:[&amp;:nth-child(2)>img]:max-w-[285px] lg:[&amp;:nth-child(2)]:max-w-none lg:[&amp;:nth-child(2)]:basis-3/5 lg:[&amp;:nth-child(2)]:flex-row lg:[&amp;:nth-child(2)]:gap-10 lg:[&amp;:nth-child(3)>*]:flex-1 lg:[&amp;:nth-child(3)>img]:h-[100%] lg:[&amp;:nth-child(3)>img]:max-w-[285px] lg:[&amp;:nth-child(3)]:max-w-none lg:[&amp;:nth-child(3)]:basis-3/5 lg:[&amp;:nth-child(3)]:flex-row-reverse lg:[&amp;:nth-child(3)]:gap-10"
+                className="flex w-full max-w-lg cursor-pointer flex-col gap-8 rounded-base bg-successBackground px-6 py-5 md:flex-row md:[&amp;>img]:h-[100%] md:[&amp;>img]:max-w-[285px] md:gap-10 md:max-w-full md:justify-between md:px-12 md:py-8 lg:flex-1 lg:flex-col lg:basis-1/4 lg:justify-between lg:gap-6 lg:px-12 lg:py-[35px] lg:max-w-lg lg:[&amp;>img]:max-w-none lg:[&amp;:nth-child(2)>*]:flex-1 lg:[&amp;:nth-child(2)>img]:h-[100%] lg:[&amp;:nth-child(2)>img]:max-w-[285px] lg:[&amp;:nth-child(2)]:max-w-none lg:[&amp;:nth-child(2)]:basis-3/5 lg:[&amp;:nth-child(2)]:flex-row lg:[&amp;:nth-child(2)]:gap-10 lg:[&amp;:nth-child(3)>*]:flex-1 lg:[&amp;:nth-child(3)>img]:h-[100%] lg:[&amp;:nth-child(3)>img]:max-w-[285px] lg:[&amp;:nth-child(3)]:max-w-none lg:[&amp;:nth-child(3)]:basis-3/5 lg:[&amp;:nth-child(3)]:flex-row-reverse lg:[&amp;:nth-child(3)]:gap-10"
               >
-                <div class="flex flex-col gap-6">
-                  <h4 class="font-bold leading-heading m-0 p-0 w-auto md:text-2xl text-xl md:tracking-normal tracking-normal text-backgroundInversePrimary lg:text-xl">
+                <div className="flex flex-col gap-6">
+                  <h4 className="font-bold leading-heading m-0 p-0 w-auto md:text-2xl text-xl md:tracking-normal tracking-normal text-backgroundInversePrimary lg:text-xl">
                     Better HELOC
                   </h4>
-                  <p class="hidden flex-1 md:flex-none text-sm text-backgroundInversePrimary md:block">
+                  <p className="hidden flex-1 md:flex-none text-sm text-backgroundInversePrimary md:block">
                     Introducing One Day HELOC™—your express lane to getting cash
                     from your home with our Home Equity Line of Credit
                     <sup>2</sup>. Access up to 90% of your home equity as cash
                     in as little as 7 days.<sup>3</sup>
                   </p>
-                  <div class="flex items-end justify-between">
-                    <div class="group">
+                  <div className="flex items-end justify-between">
+                    <div className="group">
                       <svg
                         width="48"
                         height="49"
                         viewBox="0 0 48 49"
                         fill="none"
-                        class="transition ease-universal duration-300 fill-transparent hover:fill-[#004733] [&amp;_path]:fill-[#004733] group-hover:[&amp;_path]:fill-white [&amp;_rect]:stroke-[#A4A8A4] group-hover:[&amp;_rect]:stroke-none"
+                        className="transition ease-universal duration-300 fill-transparent hover:fill-[#004733] [&amp;_path]:fill-[#004733] group-hover:[&amp;_path]:fill-white [&amp;_rect]:stroke-[#A4A8A4] group-hover:[&amp;_rect]:stroke-none"
                         xmlns="http://www.w3.org/2000/svg"
                       >
                         <rect
@@ -415,27 +414,27 @@ const Home = () => {
                   height="200"
                   decoding="async"
                   data-nimg="1"
-                  class="w-full rounded-base object-cover h-[160px] md:h-[130px]"
+                  className="w-full rounded-base object-cover h-[160px] md:h-[130px]"
                   style={{ color: "transparent" }}
                   src="https://media.better.com/better-com/homepage/learning-center/better-heloc.webp"
                 />
               </a>
               <a
                 href="https://www.bettercover.com"
-                class="flex w-full max-w-lg cursor-pointer flex-col gap-8 rounded-base bg-successBackground px-6 py-5 md:flex-row md:[&amp;>img]:h-[100%] md:[&amp;>img]:max-w-[285px] md:gap-10 md:max-w-full md:justify-between md:px-12 md:py-8 lg:flex-1 lg:flex-col lg:basis-1/4 lg:justify-between lg:gap-6 lg:px-12 lg:py-[35px] lg:max-w-lg lg:[&amp;>img]:max-w-none lg:[&amp;:nth-child(2)>*]:flex-1 lg:[&amp;:nth-child(2)>img]:h-[100%] lg:[&amp;:nth-child(2)>img]:max-w-[285px] lg:[&amp;:nth-child(2)]:max-w-none lg:[&amp;:nth-child(2)]:basis-3/5 lg:[&amp;:nth-child(2)]:flex-row lg:[&amp;:nth-child(2)]:gap-10 lg:[&amp;:nth-child(3)>*]:flex-1 lg:[&amp;:nth-child(3)>img]:h-[100%] lg:[&amp;:nth-child(3)>img]:max-w-[285px] lg:[&amp;:nth-child(3)]:max-w-none lg:[&amp;:nth-child(3)]:basis-3/5 lg:[&amp;:nth-child(3)]:flex-row-reverse lg:[&amp;:nth-child(3)]:gap-10"
+                className="flex w-full max-w-lg cursor-pointer flex-col gap-8 rounded-base bg-successBackground px-6 py-5 md:flex-row md:[&amp;>img]:h-[100%] md:[&amp;>img]:max-w-[285px] md:gap-10 md:max-w-full md:justify-between md:px-12 md:py-8 lg:flex-1 lg:flex-col lg:basis-1/4 lg:justify-between lg:gap-6 lg:px-12 lg:py-[35px] lg:max-w-lg lg:[&amp;>img]:max-w-none lg:[&amp;:nth-child(2)>*]:flex-1 lg:[&amp;:nth-child(2)>img]:h-[100%] lg:[&amp;:nth-child(2)>img]:max-w-[285px] lg:[&amp;:nth-child(2)]:max-w-none lg:[&amp;:nth-child(2)]:basis-3/5 lg:[&amp;:nth-child(2)]:flex-row lg:[&amp;:nth-child(2)]:gap-10 lg:[&amp;:nth-child(3)>*]:flex-1 lg:[&amp;:nth-child(3)>img]:h-[100%] lg:[&amp;:nth-child(3)>img]:max-w-[285px] lg:[&amp;:nth-child(3)]:max-w-none lg:[&amp;:nth-child(3)]:basis-3/5 lg:[&amp;:nth-child(3)]:flex-row-reverse lg:[&amp;:nth-child(3)]:gap-10"
               >
-                <div class="flex flex-col gap-6">
-                  <h4 class="font-bold leading-heading m-0 p-0 w-auto md:text-2xl text-xl md:tracking-normal tracking-normal text-backgroundInversePrimary lg:text-xl">
+                <div className="flex flex-col gap-6">
+                  <h4 className="font-bold leading-heading m-0 p-0 w-auto md:text-2xl text-xl md:tracking-normal tracking-normal text-backgroundInversePrimary lg:text-xl">
                     Insurance
                   </h4>
-                  <div class="flex items-end justify-between">
-                    <div class="group">
+                  <div className="flex items-end justify-between">
+                    <div className="group">
                       <svg
                         width="48"
                         height="49"
                         viewBox="0 0 48 49"
                         fill="none"
-                        class="transition ease-universal duration-300 fill-transparent hover:fill-[#004733] [&amp;_path]:fill-[#004733] group-hover:[&amp;_path]:fill-white [&amp;_rect]:stroke-[#A4A8A4] group-hover:[&amp;_rect]:stroke-none"
+                        className="transition ease-universal duration-300 fill-transparent hover:fill-[#004733] [&amp;_path]:fill-[#004733] group-hover:[&amp;_path]:fill-white [&amp;_rect]:stroke-[#A4A8A4] group-hover:[&amp;_rect]:stroke-none"
                         xmlns="http://www.w3.org/2000/svg"
                       >
                         <rect
@@ -462,7 +461,7 @@ const Home = () => {
                   height="200"
                   decoding="async"
                   data-nimg="1"
-                  class="w-full rounded-base object-cover h-[160px] md:h-[130px]"
+                  className="w-full rounded-base object-cover h-[160px] md:h-[130px]"
                   style={{ color: "transparent" }}
                   src="https://media.better.com/better-com/homepage/learning-center/insurance.webp"
                 />
@@ -470,7 +469,7 @@ const Home = () => {
             </div>
           </div>
         </section>
-        <hr class="border-t border-strokeDivider my-0 pb-lg" />
+        <hr className="border-t border-strokeDivider my-0 pb-lg" />
       </div>
     </>
   );
