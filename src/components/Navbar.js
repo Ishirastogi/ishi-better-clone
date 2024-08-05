@@ -2,15 +2,15 @@ import React from "react";
 
 const Navbar = () => {
   return (
-    <header class="sticky top-0 z-20 transition-all ease-in-out duration-300 bg-accentPrimary">
-      <nav class="m-auto flex max-w-screen-2xl justify-between p-5 md:py-5 md:px-10 xl:p-5">
-        <div class="flex flex-row">
-          <div class="invisible -translate-x-full bg-interactiveForegroundInverseTertiary inset-0 overflow-auto overscroll-contain fixed z-10 p-6 shadow-md flex flex-col transition-translate duration-300 ease-[cubic-bezier(0.42,0,0.58,1)]">
-            <div class="flex justify-between items-center">
-              <a class="inline-block px-2 flex-none" href="/">
+    <header className="sticky top-0 z-20 transition-all ease-in-out duration-300 bg-accentPrimary">
+      <nav className="m-auto flex max-w-screen-2xl justify-between p-5 md:py-5 md:px-10 xl:p-5">
+        <div className="flex flex-row">
+          <div className="invisible -translate-x-full bg-interactiveForegroundInverseTertiary inset-0 overflow-auto overscroll-contain fixed z-10 p-6 shadow-md flex flex-col transition-translate duration-300 ease-[cubic-bezier(0.42,0,0.58,1)]">
+            <div className="flex justify-between items-center">
+              <a className="inline-block px-2 flex-none" href="/">
                 <svg
                   role="img"
-                  class="icon icon-LogoBetter2021"
+                  className="icon icon-LogoBetter2021"
                   width="85px"
                   height="35px"
                   viewBox="0 0 495 133"
@@ -24,8 +24,8 @@ const Navbar = () => {
                   ></path>
                 </svg>
               </a>
-              <button class="inline-block rounded-base leading-body text-base text-center font-bold select-none outline-none transition duration-300 ease-universal focus:shadow-[0_0_0_4px_inset] disabled:text-interactiveForegroundMuted disabled:bg-interactiveMuted disabled:shadow-none text-interactiveForegroundTertiary bg-transparent hover:bg-interactiveSecondary focus:bg-interactiveSecondary focus:border-transparent focus:shadow-accentBorderSecondary active:bg-interactiveSecondary px-base h-2xl w-auto">
-                <div class="align-center flex justify-center">
+              <button className="inline-block rounded-base leading-body text-base text-center font-bold select-none outline-none transition duration-300 ease-universal focus:shadow-[0_0_0_4px_inset] disabled:text-interactiveForegroundMuted disabled:bg-interactiveMuted disabled:shadow-none text-interactiveForegroundTertiary bg-transparent hover:bg-interactiveSecondary focus:bg-interactiveSecondary focus:border-transparent focus:shadow-accentBorderSecondary active:bg-interactiveSecondary px-base h-2xl w-auto">
+                <div className="align-center flex justify-center">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="32"
@@ -33,10 +33,10 @@ const Navbar = () => {
                     viewBox="0 0 24 24"
                     fill="none"
                     stroke="currentColor"
-                    stroke-width="2"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    class="lucide lucide-x "
+                    strokeWidth="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    className="lucide lucide-x "
                   >
                     <path d="M18 6 6 18"></path>
                     <path d="m6 6 12 12"></path>
@@ -44,8 +44,8 @@ const Navbar = () => {
                 </div>
               </button>
             </div>
-            <details class="group flex-none">
-              <summary class="flex h-14 cursor-pointer select-none items-center justify-between px-2 [&amp;::-webkit-details-marker]:hidden">
+            <details className="group flex-none">
+              <summary className="flex h-14 cursor-pointer select-none items-center justify-between px-2 [&amp;::-webkit-details-marker]:hidden">
                 Buy
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -54,18 +54,18 @@ const Navbar = () => {
                   viewBox="0 0 24 24"
                   fill="none"
                   stroke="currentColor"
-                  stroke-width="2"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  class="lucide lucide-chevron-down ml-2 inline-block group-open:rotate-180 fill-black stroke-none"
+                  strokeWidth="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  className="lucide lucide-chevron-down ml-2 inline-block group-open:rotate-180 fill-black stroke-none"
                 >
                   <path d="m6 9 6 6 6-6"></path>
                 </svg>
               </summary>
-              <ul class="m-0 list-none">
+              <ul className="m-0 list-none">
                 <li>
                   <a
-                    class="flex items-center whitespace-nowrap px-7 py-4 hover:rounded-base hover:bg-accentBackground focus:bg-accentBackground"
+                    className="flex items-center whitespace-nowrap px-7 py-4 hover:rounded-base hover:bg-accentBackground focus:bg-accentBackground"
                     href="/preapproval/nxt-purchase"
                   >
                     Apply now
@@ -73,7 +73,7 @@ const Navbar = () => {
                 </li>
                 <li>
                   <a
-                    class="flex items-center whitespace-nowrap px-7 py-4 hover:rounded-base hover:bg-accentBackground focus:bg-accentBackground"
+                    className="flex items-center whitespace-nowrap px-7 py-4 hover:rounded-base hover:bg-accentBackground focus:bg-accentBackground"
                     href="/mortgage-rates"
                   >
                     Purchase rates
@@ -81,7 +81,7 @@ const Navbar = () => {
                 </li>
                 <li>
                   <a
-                    class="flex items-center whitespace-nowrap px-7 py-4 hover:rounded-base hover:bg-accentBackground focus:bg-accentBackground"
+                    className="flex items-center whitespace-nowrap px-7 py-4 hover:rounded-base hover:bg-accentBackground focus:bg-accentBackground"
                     href="/how-much-house-can-i-afford"
                   >
                     Affordability calculator
@@ -89,7 +89,7 @@ const Navbar = () => {
                 </li>
                 <li>
                   <a
-                    class="flex items-center whitespace-nowrap px-7 py-4 hover:rounded-base hover:bg-accentBackground focus:bg-accentBackground"
+                    className="flex items-center whitespace-nowrap px-7 py-4 hover:rounded-base hover:bg-accentBackground focus:bg-accentBackground"
                     href="/mortgage-calculator"
                   >
                     Mortgage calculator
@@ -97,7 +97,7 @@ const Navbar = () => {
                 </li>
                 <li>
                   <a
-                    class="flex items-center whitespace-nowrap px-7 py-4 hover:rounded-base hover:bg-accentBackground focus:bg-accentBackground"
+                    className="flex items-center whitespace-nowrap px-7 py-4 hover:rounded-base hover:bg-accentBackground focus:bg-accentBackground"
                     href="/rent-vs-buy-calculator/"
                   >
                     Rent vs buy calculator
@@ -105,7 +105,7 @@ const Navbar = () => {
                 </li>
                 <li>
                   <a
-                    class="flex items-center whitespace-nowrap px-7 py-4 hover:rounded-base hover:bg-accentBackground focus:bg-accentBackground"
+                    className="flex items-center whitespace-nowrap px-7 py-4 hover:rounded-base hover:bg-accentBackground focus:bg-accentBackground"
                     href="/find-an-agent"
                   >
                     Find an agent
@@ -113,7 +113,7 @@ const Navbar = () => {
                 </li>
                 <li>
                   <a
-                    class="flex items-center whitespace-nowrap px-7 py-4 hover:rounded-base hover:bg-accentBackground focus:bg-accentBackground"
+                    className="flex items-center whitespace-nowrap px-7 py-4 hover:rounded-base hover:bg-accentBackground focus:bg-accentBackground"
                     href="/va-loan"
                   >
                     VA loans
@@ -121,7 +121,7 @@ const Navbar = () => {
                 </li>
                 <li>
                   <a
-                    class="flex items-center whitespace-nowrap px-7 py-4 hover:rounded-base hover:bg-accentBackground focus:bg-accentBackground"
+                    className="flex items-center whitespace-nowrap px-7 py-4 hover:rounded-base hover:bg-accentBackground focus:bg-accentBackground"
                     href="/content"
                   >
                     Learning center
@@ -129,8 +129,8 @@ const Navbar = () => {
                 </li>
               </ul>
             </details>
-            <details class="group flex-none">
-              <summary class="flex h-14 cursor-pointer select-none items-center justify-between px-2 [&amp;::-webkit-details-marker]:hidden">
+            <details className="group flex-none">
+              <summary className="flex h-14 cursor-pointer select-none items-center justify-between px-2 [&amp;::-webkit-details-marker]:hidden">
                 Refinance
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -139,18 +139,18 @@ const Navbar = () => {
                   viewBox="0 0 24 24"
                   fill="none"
                   stroke="currentColor"
-                  stroke-width="2"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  class="lucide lucide-chevron-down ml-2 inline-block group-open:rotate-180 fill-black stroke-none"
+                  strokeWidth="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  className="lucide lucide-chevron-down ml-2 inline-block group-open:rotate-180 fill-black stroke-none"
                 >
                   <path d="m6 9 6 6 6-6"></path>
                 </svg>
               </summary>
-              <ul class="m-0 list-none">
+              <ul className="m-0 list-none">
                 <li>
                   <a
-                    class="flex items-center whitespace-nowrap px-7 py-4 hover:rounded-base hover:bg-accentBackground focus:bg-accentBackground"
+                    className="flex items-center whitespace-nowrap px-7 py-4 hover:rounded-base hover:bg-accentBackground focus:bg-accentBackground"
                     href="/preapproval/nxt-refinance"
                   >
                     Apply Now
@@ -158,7 +158,7 @@ const Navbar = () => {
                 </li>
                 <li>
                   <a
-                    class="flex items-center whitespace-nowrap px-7 py-4 hover:rounded-base hover:bg-accentBackground focus:bg-accentBackground"
+                    className="flex items-center whitespace-nowrap px-7 py-4 hover:rounded-base hover:bg-accentBackground focus:bg-accentBackground"
                     href="/refinance-rates"
                   >
                     Refinance rates
@@ -166,7 +166,7 @@ const Navbar = () => {
                 </li>
                 <li>
                   <a
-                    class="flex items-center whitespace-nowrap px-7 py-4 hover:rounded-base hover:bg-accentBackground focus:bg-accentBackground"
+                    className="flex items-center whitespace-nowrap px-7 py-4 hover:rounded-base hover:bg-accentBackground focus:bg-accentBackground"
                     href="/content/refinance-calculator/"
                   >
                     Cash-out refinance calculator
@@ -174,7 +174,7 @@ const Navbar = () => {
                 </li>
                 <li>
                   <a
-                    class="flex items-center whitespace-nowrap px-7 py-4 hover:rounded-base hover:bg-accentBackground focus:bg-accentBackground"
+                    className="flex items-center whitespace-nowrap px-7 py-4 hover:rounded-base hover:bg-accentBackground focus:bg-accentBackground"
                     href="/content"
                   >
                     Learning Center
@@ -182,8 +182,8 @@ const Navbar = () => {
                 </li>
               </ul>
             </details>
-            <details class="group flex-none">
-              <summary class="flex h-14 cursor-pointer select-none items-center justify-between px-2 [&amp;::-webkit-details-marker]:hidden">
+            <details className="group flex-none">
+              <summary className="flex h-14 cursor-pointer select-none items-center justify-between px-2 [&amp;::-webkit-details-marker]:hidden">
                 HELOC
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -192,18 +192,18 @@ const Navbar = () => {
                   viewBox="0 0 24 24"
                   fill="none"
                   stroke="currentColor"
-                  stroke-width="2"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  class="lucide lucide-chevron-down ml-2 inline-block group-open:rotate-180 fill-black stroke-none"
+                  strokeWidth="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  className="lucide lucide-chevron-down ml-2 inline-block group-open:rotate-180 fill-black stroke-none"
                 >
                   <path d="m6 9 6 6 6-6"></path>
                 </svg>
               </summary>
-              <ul class="m-0 list-none">
+              <ul className="m-0 list-none">
                 <li>
                   <a
-                    class="flex items-center whitespace-nowrap px-7 py-4 hover:rounded-base hover:bg-accentBackground focus:bg-accentBackground"
+                    className="flex items-center whitespace-nowrap px-7 py-4 hover:rounded-base hover:bg-accentBackground focus:bg-accentBackground"
                     href="/preapproval/nxt-heloc"
                   >
                     Apply Now
@@ -211,7 +211,7 @@ const Navbar = () => {
                 </li>
                 <li>
                   <a
-                    class="flex items-center whitespace-nowrap px-7 py-4 hover:rounded-base hover:bg-accentBackground focus:bg-accentBackground"
+                    className="flex items-center whitespace-nowrap px-7 py-4 hover:rounded-base hover:bg-accentBackground focus:bg-accentBackground"
                     href="/heloc-calculator"
                   >
                     Calculate your Cash 💵
@@ -219,7 +219,7 @@ const Navbar = () => {
                 </li>
                 <li>
                   <a
-                    class="flex items-center whitespace-nowrap px-7 py-4 hover:rounded-base hover:bg-accentBackground focus:bg-accentBackground"
+                    className="flex items-center whitespace-nowrap px-7 py-4 hover:rounded-base hover:bg-accentBackground focus:bg-accentBackground"
                     href="/heloc-vs-cashout-refi-calculator"
                   >
                     HELOC vs. Cash-out Refinance
@@ -227,7 +227,7 @@ const Navbar = () => {
                 </li>
                 <li>
                   <a
-                    class="flex items-center whitespace-nowrap px-7 py-4 hover:rounded-base hover:bg-accentBackground focus:bg-accentBackground"
+                    className="flex items-center whitespace-nowrap px-7 py-4 hover:rounded-base hover:bg-accentBackground focus:bg-accentBackground"
                     href="/content"
                   >
                     Learning Center
@@ -235,8 +235,8 @@ const Navbar = () => {
                 </li>
               </ul>
             </details>
-            <details class="group flex-none">
-              <summary class="flex h-14 cursor-pointer select-none items-center justify-between px-2 [&amp;::-webkit-details-marker]:hidden">
+            <details className="group flex-none">
+              <summary className="flex h-14 cursor-pointer select-none items-center justify-between px-2 [&amp;::-webkit-details-marker]:hidden">
                 Rates
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -245,18 +245,18 @@ const Navbar = () => {
                   viewBox="0 0 24 24"
                   fill="none"
                   stroke="currentColor"
-                  stroke-width="2"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  class="lucide lucide-chevron-down ml-2 inline-block group-open:rotate-180 fill-black stroke-none"
+                  strokeWidth="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  className="lucide lucide-chevron-down ml-2 inline-block group-open:rotate-180 fill-black stroke-none"
                 >
                   <path d="m6 9 6 6 6-6"></path>
                 </svg>
               </summary>
-              <ul class="m-0 list-none">
+              <ul className="m-0 list-none">
                 <li>
                   <a
-                    class="flex items-center whitespace-nowrap px-7 py-4 hover:rounded-base hover:bg-accentBackground focus:bg-accentBackground"
+                    className="flex items-center whitespace-nowrap px-7 py-4 hover:rounded-base hover:bg-accentBackground focus:bg-accentBackground"
                     href="/mortgage-rates"
                   >
                     Purchase mortgage rates
@@ -264,7 +264,7 @@ const Navbar = () => {
                 </li>
                 <li>
                   <a
-                    class="flex items-center whitespace-nowrap px-7 py-4 hover:rounded-base hover:bg-accentBackground focus:bg-accentBackground"
+                    className="flex items-center whitespace-nowrap px-7 py-4 hover:rounded-base hover:bg-accentBackground focus:bg-accentBackground"
                     href="/refinance-rates"
                   >
                     Refinance rates
@@ -272,7 +272,7 @@ const Navbar = () => {
                 </li>
                 <li>
                   <a
-                    class="flex items-center whitespace-nowrap px-7 py-4 hover:rounded-base hover:bg-accentBackground focus:bg-accentBackground"
+                    className="flex items-center whitespace-nowrap px-7 py-4 hover:rounded-base hover:bg-accentBackground focus:bg-accentBackground"
                     href="/cash-out-refinance-rates"
                   >
                     Refinance cash-out rates
@@ -280,7 +280,7 @@ const Navbar = () => {
                 </li>
                 <li>
                   <a
-                    class="flex items-center whitespace-nowrap px-7 py-4 hover:rounded-base hover:bg-accentBackground focus:bg-accentBackground"
+                    className="flex items-center whitespace-nowrap px-7 py-4 hover:rounded-base hover:bg-accentBackground focus:bg-accentBackground"
                     href="/heloc-rates"
                   >
                     HELOC rates
@@ -288,7 +288,7 @@ const Navbar = () => {
                 </li>
                 <li>
                   <a
-                    class="flex items-center whitespace-nowrap px-7 py-4 hover:rounded-base hover:bg-accentBackground focus:bg-accentBackground"
+                    className="flex items-center whitespace-nowrap px-7 py-4 hover:rounded-base hover:bg-accentBackground focus:bg-accentBackground"
                     href="/va-loan-rates"
                   >
                     Purchase VA rates
@@ -296,8 +296,8 @@ const Navbar = () => {
                 </li>
               </ul>
             </details>
-            <details class="group flex-none">
-              <summary class="flex h-14 cursor-pointer select-none items-center justify-between px-2 [&amp;::-webkit-details-marker]:hidden">
+            <details className="group flex-none">
+              <summary className="flex h-14 cursor-pointer select-none items-center justify-between px-2 [&amp;::-webkit-details-marker]:hidden">
                 Better+
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -306,18 +306,18 @@ const Navbar = () => {
                   viewBox="0 0 24 24"
                   fill="none"
                   stroke="currentColor"
-                  stroke-width="2"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  class="lucide lucide-chevron-down ml-2 inline-block group-open:rotate-180 fill-black stroke-none"
+                  strokeWidth="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  className="lucide lucide-chevron-down ml-2 inline-block group-open:rotate-180 fill-black stroke-none"
                 >
                   <path d="m6 9 6 6 6-6"></path>
                 </svg>
               </summary>
-              <ul class="m-0 list-none">
+              <ul className="m-0 list-none">
                 <li>
                   <a
-                    class="flex items-center whitespace-nowrap px-7 py-4 hover:rounded-base hover:bg-accentBackground focus:bg-accentBackground"
+                    className="flex items-center whitespace-nowrap px-7 py-4 hover:rounded-base hover:bg-accentBackground focus:bg-accentBackground"
                     href="https://www.bettercover.com/"
                   >
                     Get Insurance
@@ -325,7 +325,7 @@ const Navbar = () => {
                 </li>
                 <li>
                   <a
-                    class="flex items-center whitespace-nowrap px-7 py-4 hover:rounded-base hover:bg-accentBackground focus:bg-accentBackground"
+                    className="flex items-center whitespace-nowrap px-7 py-4 hover:rounded-base hover:bg-accentBackground focus:bg-accentBackground"
                     href="/title"
                   >
                     Title and Closing
@@ -333,7 +333,7 @@ const Navbar = () => {
                 </li>
                 <li>
                   <a
-                    class="flex items-center whitespace-nowrap px-7 py-4 hover:rounded-base hover:bg-accentBackground focus:bg-accentBackground"
+                    className="flex items-center whitespace-nowrap px-7 py-4 hover:rounded-base hover:bg-accentBackground focus:bg-accentBackground"
                     href="/b/attorney-match"
                   >
                     Better Attorney Match
@@ -341,7 +341,7 @@ const Navbar = () => {
                 </li>
                 <li>
                   <a
-                    class="flex items-center whitespace-nowrap px-7 py-4 hover:rounded-base hover:bg-accentBackground focus:bg-accentBackground"
+                    className="flex items-center whitespace-nowrap px-7 py-4 hover:rounded-base hover:bg-accentBackground focus:bg-accentBackground"
                     href="/content"
                   >
                     Learning Center
@@ -349,30 +349,30 @@ const Navbar = () => {
                 </li>
                 <li>
                   <a
-                    class="flex items-center whitespace-nowrap px-7 py-4 hover:rounded-base hover:bg-accentBackground focus:bg-accentBackground"
+                    className="flex items-center whitespace-nowrap px-7 py-4 hover:rounded-base hover:bg-accentBackground focus:bg-accentBackground"
                     href="/b/better-real-estate-partner-agents"
                   >
                     Better Agent Match
-                    <span class="leading-body m-0 p-0 text-left text-sm ml-2 inline-block rounded-full bg-graph4Tertiary px-4 font-bold text-backgroundInversePrimary">
+                    <span className="leading-body m-0 p-0 text-left text-sm ml-2 inline-block rounded-full bg-graph4Tertiary px-4 font-bold text-backgroundInversePrimary">
                       For Agents
                     </span>
                   </a>
                 </li>
                 <li>
                   <a
-                    class="flex items-center whitespace-nowrap px-7 py-4 hover:rounded-base hover:bg-accentBackground focus:bg-accentBackground"
+                    className="flex items-center whitespace-nowrap px-7 py-4 hover:rounded-base hover:bg-accentBackground focus:bg-accentBackground"
                     href="/b/duo"
                   >
                     Better Duo
-                    <span class="leading-body m-0 p-0 text-left text-sm ml-2 inline-block rounded-full bg-graph4Tertiary px-4 font-bold text-backgroundInversePrimary">
+                    <span className="leading-body m-0 p-0 text-left text-sm ml-2 inline-block rounded-full bg-graph4Tertiary px-4 font-bold text-backgroundInversePrimary">
                       For Agents
                     </span>
                   </a>
                 </li>
               </ul>
             </details>
-            <div class="bg-successBackground px-6 py-2 rounded-full flex items-center justify-center">
-              <div class="mr-3">
+            <div className="bg-successBackground px-6 py-2 rounded-full flex items-center justify-center">
+              <div className="mr-3">
                 <svg
                   width="19"
                   height="18"
@@ -388,30 +388,30 @@ const Navbar = () => {
               </div>
               Call us anytime at
               <a
-                class="ml-1 underline underline-offset-[3px] hover:text-textHighlight"
+                className="ml-1 underline underline-offset-[3px] hover:text-textHighlight"
                 href="tel:4155238837"
               >
                 (415) 523 88371
               </a>
             </div>
-            <div class="flex flex-col gap-4 mt-auto">
+            <div className="flex flex-col gap-4 mt-auto">
               <a
-                class="inline-flex items-center justify-center whitespace-nowrap rounded-full text-base font-bold leading-normal disabled:pointer-events-none disabled:opacity-50 transition-all ease-in-out duration-200 bg-graphTertiary text-interactiveForegroundInversePrimary hover:bg-accentPrimary hover:text-interactiveForegroundPrimary h-16 px-12 py-5 w-auto"
+                className="inline-flex items-center justify-center whitespace-nowrap rounded-full text-base font-bold leading-normal disabled:pointer-events-none disabled:opacity-50 transition-all ease-in-out duration-200 bg-graphTertiary text-interactiveForegroundInversePrimary hover:bg-accentPrimary hover:text-interactiveForegroundPrimary h-16 px-12 py-5 w-auto"
                 href="/start"
               >
-                <p class="leading-body m-0 p-0 text-left text-base flex flex-col items-center text-current font-bold">
+                <p className="leading-body m-0 p-0 text-left text-base flex flex-col items-center text-current font-bold">
                   <span>Get started</span>
-                  <span class="text-xs font-normal">
+                  <span className="text-xs font-normal">
                     3 min | No credit impact
                   </span>
                 </p>
               </a>
               <a
-                class="inline-flex items-center justify-center whitespace-nowrap rounded-full text-base leading-normal disabled:pointer-events-none disabled:opacity-50 transition-all ease-in-out duration-200 border border-strokeDivider text-interactiveForegroundInversePrimary hover:shadow-accentBorderSecondary hover:border-accentBorderSecondary hover:shadow-[0_0_0_4px_inset] hover:text-interactivePrimary h-16 px-12 py-5 w-auto font-normal"
+                className="inline-flex items-center justify-center whitespace-nowrap rounded-full text-base leading-normal disabled:pointer-events-none disabled:opacity-50 transition-all ease-in-out duration-200 border border-strokeDivider text-interactiveForegroundInversePrimary hover:shadow-accentBorderSecondary hover:border-accentBorderSecondary hover:shadow-[0_0_0_4px_inset] hover:text-interactivePrimary h-16 px-12 py-5 w-auto font-normal"
                 href="/account/sign-in"
               >
                 Sign in
-                <span class="ml-xs">
+                <span className="ml-xs">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="16px"
@@ -419,10 +419,10 @@ const Navbar = () => {
                     viewBox="0 0 24 24"
                     fill="currentColor"
                     stroke="currentColor"
-                    stroke-width="2"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    class="lucide lucide-user "
+                    strokeWidth="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    className="lucide lucide-user "
                   >
                     <path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"></path>
                     <circle cx="12" cy="7" r="4"></circle>
@@ -433,17 +433,17 @@ const Navbar = () => {
           </div>
           <button
             aria-label="close navigation bar"
-            class="bg-interactiveForegroundInversePrimary fixed inset-0 h-screen w-screen opacity-80 z-1 invisible focus:border transition-translate duration-300 ease-[cubic-bezier(0.42,0,0.58,1)]"
+            className="bg-interactiveForegroundInversePrimary fixed inset-0 h-screen w-screen opacity-80 z-1 invisible focus:border transition-translate duration-300 ease-[cubic-bezier(0.42,0,0.58,1)]"
           ></button>
-          <ul class="flex items-center">
-            <li class="mr-2">
+          <ul className="flex items-center">
+            <li className="mr-2">
               <a
-                class="font-normal transition-all ease-in-out duration-300 group-hover:bg-backgroundSecondary group-hover:text-textPrimary text-textInversePrimary hover:text-textInversePrimary hover:bg-inherit"
+                className="font-normal transition-all ease-in-out duration-300 group-hover:bg-backgroundSecondary group-hover:text-textPrimary text-textInversePrimary hover:text-textInversePrimary hover:bg-inherit"
                 href="/"
               >
                 <svg
                   role="img"
-                  class="icon icon-LogoBetter2021"
+                  className="icon icon-LogoBetter2021"
                   width="65px"
                   height="20px"
                   viewBox="0 0 495 133"
@@ -458,19 +458,19 @@ const Navbar = () => {
                 </svg>
               </a>
             </li>
-            <li class="mx-5 hidden xl:block">
-              <div class="group relative">
-                <span class="">
-                  <button class="rounded-full py-1 font-normal transition-all ease-in-out duration-300 h-12 px-4 text-textInversePrimary hover:bg-backgroundSecondary hover:text-textPrimary group-hover:bg-backgroundSecondary group-hover:text-textPrimary">
+            <li className="mx-5 hidden xl:block">
+              <div className="group relative">
+                <span className="">
+                  <button className="rounded-full py-1 font-normal transition-all ease-in-out duration-300 h-12 px-4 text-textInversePrimary hover:bg-backgroundSecondary hover:text-textPrimary group-hover:bg-backgroundSecondary group-hover:text-textPrimary">
                     Buy
                   </button>
                 </span>
-                <div class="absolute invisible left-0 right-0 pt-2 group-hover:visible">
-                  <div class="z-10 w-[22rem] rounded-base p-3 bg-white shadow-md">
+                <div className="absolute invisible left-0 right-0 pt-2 group-hover:visible">
+                  <div className="z-10 w-[22rem] rounded-base p-3 bg-white shadow-md">
                     <div>
                       <a
                         href="/preapproval/nxt-purchase"
-                        class="px-5 py-3 hover:bg-backgroundSecondary group/sub-menu hover:rounded-base focus:bg-backgroundSecondary flex justify-between "
+                        className="px-5 py-3 hover:bg-backgroundSecondary group/sub-menu hover:rounded-base focus:bg-backgroundSecondary flex justify-between "
                       >
                         Apply now
                         <svg
@@ -480,10 +480,10 @@ const Navbar = () => {
                           viewBox="0 0 24 24"
                           fill="none"
                           stroke="currentColor"
-                          stroke-width="2"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                          class="lucide lucide-arrow-right text-transparent group-hover/sub-menu:text-accentPrimary"
+                          strokeWidth="2"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          className="lucide lucide-arrow-right text-transparent group-hover/sub-menu:text-accentPrimary"
                         >
                           <path d="M5 12h14"></path>
                           <path d="m12 5 7 7-7 7"></path>
@@ -493,7 +493,7 @@ const Navbar = () => {
                     <div>
                       <a
                         href="/mortgage-rates"
-                        class="px-5 py-3 hover:bg-backgroundSecondary group/sub-menu hover:rounded-base focus:bg-backgroundSecondary flex justify-between "
+                        className="px-5 py-3 hover:bg-backgroundSecondary group/sub-menu hover:rounded-base focus:bg-backgroundSecondary flex justify-between "
                       >
                         Purchase rates
                         <svg
@@ -503,10 +503,10 @@ const Navbar = () => {
                           viewBox="0 0 24 24"
                           fill="none"
                           stroke="currentColor"
-                          stroke-width="2"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                          class="lucide lucide-arrow-right text-transparent group-hover/sub-menu:text-accentPrimary"
+                          strokeWidth="2"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          className="lucide lucide-arrow-right text-transparent group-hover/sub-menu:text-accentPrimary"
                         >
                           <path d="M5 12h14"></path>
                           <path d="m12 5 7 7-7 7"></path>
@@ -516,7 +516,7 @@ const Navbar = () => {
                     <div>
                       <a
                         href="/how-much-house-can-i-afford"
-                        class="px-5 py-3 hover:bg-backgroundSecondary group/sub-menu hover:rounded-base focus:bg-backgroundSecondary flex justify-between "
+                        className="px-5 py-3 hover:bg-backgroundSecondary group/sub-menu hover:rounded-base focus:bg-backgroundSecondary flex justify-between "
                       >
                         Affordability calculator
                         <svg
@@ -526,10 +526,10 @@ const Navbar = () => {
                           viewBox="0 0 24 24"
                           fill="none"
                           stroke="currentColor"
-                          stroke-width="2"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                          class="lucide lucide-arrow-right text-transparent group-hover/sub-menu:text-accentPrimary"
+                          strokeWidth="2"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          className="lucide lucide-arrow-right text-transparent group-hover/sub-menu:text-accentPrimary"
                         >
                           <path d="M5 12h14"></path>
                           <path d="m12 5 7 7-7 7"></path>
@@ -539,7 +539,7 @@ const Navbar = () => {
                     <div>
                       <a
                         href="/mortgage-calculator"
-                        class="px-5 py-3 hover:bg-backgroundSecondary group/sub-menu hover:rounded-base focus:bg-backgroundSecondary flex justify-between "
+                        className="px-5 py-3 hover:bg-backgroundSecondary group/sub-menu hover:rounded-base focus:bg-backgroundSecondary flex justify-between "
                       >
                         Mortgage calculator
                         <svg
@@ -549,10 +549,10 @@ const Navbar = () => {
                           viewBox="0 0 24 24"
                           fill="none"
                           stroke="currentColor"
-                          stroke-width="2"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                          class="lucide lucide-arrow-right text-transparent group-hover/sub-menu:text-accentPrimary"
+                          strokeWidth="2"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          className="lucide lucide-arrow-right text-transparent group-hover/sub-menu:text-accentPrimary"
                         >
                           <path d="M5 12h14"></path>
                           <path d="m12 5 7 7-7 7"></path>
@@ -562,7 +562,7 @@ const Navbar = () => {
                     <div>
                       <a
                         href="/rent-vs-buy-calculator/"
-                        class="px-5 py-3 hover:bg-backgroundSecondary group/sub-menu hover:rounded-base focus:bg-backgroundSecondary flex justify-between "
+                        className="px-5 py-3 hover:bg-backgroundSecondary group/sub-menu hover:rounded-base focus:bg-backgroundSecondary flex justify-between "
                       >
                         Rent vs buy calculator
                         <svg
@@ -572,10 +572,10 @@ const Navbar = () => {
                           viewBox="0 0 24 24"
                           fill="none"
                           stroke="currentColor"
-                          stroke-width="2"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                          class="lucide lucide-arrow-right text-transparent group-hover/sub-menu:text-accentPrimary"
+                          strokeWidth="2"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          className="lucide lucide-arrow-right text-transparent group-hover/sub-menu:text-accentPrimary"
                         >
                           <path d="M5 12h14"></path>
                           <path d="m12 5 7 7-7 7"></path>
@@ -585,7 +585,7 @@ const Navbar = () => {
                     <div>
                       <a
                         href="/find-an-agent"
-                        class="px-5 py-3 hover:bg-backgroundSecondary group/sub-menu hover:rounded-base focus:bg-backgroundSecondary flex justify-between "
+                        className="px-5 py-3 hover:bg-backgroundSecondary group/sub-menu hover:rounded-base focus:bg-backgroundSecondary flex justify-between "
                       >
                         Find an agent
                         <svg
@@ -595,10 +595,10 @@ const Navbar = () => {
                           viewBox="0 0 24 24"
                           fill="none"
                           stroke="currentColor"
-                          stroke-width="2"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                          class="lucide lucide-arrow-right text-transparent group-hover/sub-menu:text-accentPrimary"
+                          strokeWidth="2"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          className="lucide lucide-arrow-right text-transparent group-hover/sub-menu:text-accentPrimary"
                         >
                           <path d="M5 12h14"></path>
                           <path d="m12 5 7 7-7 7"></path>
@@ -608,7 +608,7 @@ const Navbar = () => {
                     <div>
                       <a
                         href="/va-loan"
-                        class="px-5 py-3 hover:bg-backgroundSecondary group/sub-menu hover:rounded-base focus:bg-backgroundSecondary flex justify-between "
+                        className="px-5 py-3 hover:bg-backgroundSecondary group/sub-menu hover:rounded-base focus:bg-backgroundSecondary flex justify-between "
                       >
                         VA loans
                         <svg
@@ -618,10 +618,10 @@ const Navbar = () => {
                           viewBox="0 0 24 24"
                           fill="none"
                           stroke="currentColor"
-                          stroke-width="2"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                          class="lucide lucide-arrow-right text-transparent group-hover/sub-menu:text-accentPrimary"
+                          strokeWidth="2"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          className="lucide lucide-arrow-right text-transparent group-hover/sub-menu:text-accentPrimary"
                         >
                           <path d="M5 12h14"></path>
                           <path d="m12 5 7 7-7 7"></path>
@@ -631,7 +631,7 @@ const Navbar = () => {
                     <div>
                       <a
                         href="/content"
-                        class="px-5 py-3 hover:bg-backgroundSecondary group/sub-menu hover:rounded-base focus:bg-backgroundSecondary flex justify-between "
+                        className="px-5 py-3 hover:bg-backgroundSecondary group/sub-menu hover:rounded-base focus:bg-backgroundSecondary flex justify-between "
                       >
                         Learning center
                         <svg
@@ -641,10 +641,10 @@ const Navbar = () => {
                           viewBox="0 0 24 24"
                           fill="none"
                           stroke="currentColor"
-                          stroke-width="2"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                          class="lucide lucide-arrow-right text-transparent group-hover/sub-menu:text-accentPrimary"
+                          strokeWidth="2"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          className="lucide lucide-arrow-right text-transparent group-hover/sub-menu:text-accentPrimary"
                         >
                           <path d="M5 12h14"></path>
                           <path d="m12 5 7 7-7 7"></path>
@@ -655,19 +655,19 @@ const Navbar = () => {
                 </div>
               </div>
             </li>
-            <li class="mx-5 hidden xl:block">
-              <div class="group relative">
-                <span class="">
-                  <button class="rounded-full py-1 font-normal transition-all ease-in-out duration-300 h-12 px-4 text-textInversePrimary hover:bg-backgroundSecondary hover:text-textPrimary group-hover:bg-backgroundSecondary group-hover:text-textPrimary">
+            <li className="mx-5 hidden xl:block">
+              <div className="group relative">
+                <span className="">
+                  <button className="rounded-full py-1 font-normal transition-all ease-in-out duration-300 h-12 px-4 text-textInversePrimary hover:bg-backgroundSecondary hover:text-textPrimary group-hover:bg-backgroundSecondary group-hover:text-textPrimary">
                     Refinance
                   </button>
                 </span>
-                <div class="absolute invisible left-0 right-0 pt-2 group-hover:visible">
-                  <div class="z-10 w-[22rem] rounded-base p-3 bg-white shadow-md">
+                <div className="absolute invisible left-0 right-0 pt-2 group-hover:visible">
+                  <div className="z-10 w-[22rem] rounded-base p-3 bg-white shadow-md">
                     <div>
                       <a
                         href="/preapproval/nxt-refinance"
-                        class="px-5 py-3 hover:bg-backgroundSecondary group/sub-menu hover:rounded-base focus:bg-backgroundSecondary flex justify-between "
+                        className="px-5 py-3 hover:bg-backgroundSecondary group/sub-menu hover:rounded-base focus:bg-backgroundSecondary flex justify-between "
                       >
                         Apply Now
                         <svg
@@ -677,10 +677,10 @@ const Navbar = () => {
                           viewBox="0 0 24 24"
                           fill="none"
                           stroke="currentColor"
-                          stroke-width="2"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                          class="lucide lucide-arrow-right text-transparent group-hover/sub-menu:text-accentPrimary"
+                          strokeWidth="2"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          className="lucide lucide-arrow-right text-transparent group-hover/sub-menu:text-accentPrimary"
                         >
                           <path d="M5 12h14"></path>
                           <path d="m12 5 7 7-7 7"></path>
@@ -690,7 +690,7 @@ const Navbar = () => {
                     <div>
                       <a
                         href="/refinance-rates"
-                        class="px-5 py-3 hover:bg-backgroundSecondary group/sub-menu hover:rounded-base focus:bg-backgroundSecondary flex justify-between "
+                        className="px-5 py-3 hover:bg-backgroundSecondary group/sub-menu hover:rounded-base focus:bg-backgroundSecondary flex justify-between "
                       >
                         Refinance rates
                         <svg
@@ -700,10 +700,10 @@ const Navbar = () => {
                           viewBox="0 0 24 24"
                           fill="none"
                           stroke="currentColor"
-                          stroke-width="2"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                          class="lucide lucide-arrow-right text-transparent group-hover/sub-menu:text-accentPrimary"
+                          strokeWidth="2"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          className="lucide lucide-arrow-right text-transparent group-hover/sub-menu:text-accentPrimary"
                         >
                           <path d="M5 12h14"></path>
                           <path d="m12 5 7 7-7 7"></path>
@@ -713,7 +713,7 @@ const Navbar = () => {
                     <div>
                       <a
                         href="/content/refinance-calculator/"
-                        class="px-5 py-3 hover:bg-backgroundSecondary group/sub-menu hover:rounded-base focus:bg-backgroundSecondary flex justify-between "
+                        className="px-5 py-3 hover:bg-backgroundSecondary group/sub-menu hover:rounded-base focus:bg-backgroundSecondary flex justify-between "
                       >
                         Cash-out refinance calculator
                         <svg
@@ -723,10 +723,10 @@ const Navbar = () => {
                           viewBox="0 0 24 24"
                           fill="none"
                           stroke="currentColor"
-                          stroke-width="2"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                          class="lucide lucide-arrow-right text-transparent group-hover/sub-menu:text-accentPrimary"
+                          strokeWidth="2"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          className="lucide lucide-arrow-right text-transparent group-hover/sub-menu:text-accentPrimary"
                         >
                           <path d="M5 12h14"></path>
                           <path d="m12 5 7 7-7 7"></path>
@@ -736,7 +736,7 @@ const Navbar = () => {
                     <div>
                       <a
                         href="/content"
-                        class="px-5 py-3 hover:bg-backgroundSecondary group/sub-menu hover:rounded-base focus:bg-backgroundSecondary flex justify-between "
+                        className="px-5 py-3 hover:bg-backgroundSecondary group/sub-menu hover:rounded-base focus:bg-backgroundSecondary flex justify-between "
                       >
                         Learning Center
                         <svg
@@ -746,10 +746,10 @@ const Navbar = () => {
                           viewBox="0 0 24 24"
                           fill="none"
                           stroke="currentColor"
-                          stroke-width="2"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                          class="lucide lucide-arrow-right text-transparent group-hover/sub-menu:text-accentPrimary"
+                          strokeWidth="2"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          className="lucide lucide-arrow-right text-transparent group-hover/sub-menu:text-accentPrimary"
                         >
                           <path d="M5 12h14"></path>
                           <path d="m12 5 7 7-7 7"></path>
@@ -760,19 +760,19 @@ const Navbar = () => {
                 </div>
               </div>
             </li>
-            <li class="mx-5 hidden xl:block">
-              <div class="group relative">
-                <span class="">
-                  <button class="rounded-full py-1 font-normal transition-all ease-in-out duration-300 h-12 px-4 text-textInversePrimary hover:bg-backgroundSecondary hover:text-textPrimary group-hover:bg-backgroundSecondary group-hover:text-textPrimary">
+            <li className="mx-5 hidden xl:block">
+              <div className="group relative">
+                <span className="">
+                  <button className="rounded-full py-1 font-normal transition-all ease-in-out duration-300 h-12 px-4 text-textInversePrimary hover:bg-backgroundSecondary hover:text-textPrimary group-hover:bg-backgroundSecondary group-hover:text-textPrimary">
                     HELOC
                   </button>
                 </span>
-                <div class="absolute invisible left-0 right-0 pt-2 group-hover:visible">
-                  <div class="z-10 w-[22rem] rounded-base p-3 bg-white shadow-md">
+                <div className="absolute invisible left-0 right-0 pt-2 group-hover:visible">
+                  <div className="z-10 w-[22rem] rounded-base p-3 bg-white shadow-md">
                     <div>
                       <a
                         href="/preapproval/nxt-heloc"
-                        class="px-5 py-3 hover:bg-backgroundSecondary group/sub-menu hover:rounded-base focus:bg-backgroundSecondary flex justify-between "
+                        className="px-5 py-3 hover:bg-backgroundSecondary group/sub-menu hover:rounded-base focus:bg-backgroundSecondary flex justify-between "
                       >
                         Apply Now
                         <svg
@@ -782,10 +782,10 @@ const Navbar = () => {
                           viewBox="0 0 24 24"
                           fill="none"
                           stroke="currentColor"
-                          stroke-width="2"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                          class="lucide lucide-arrow-right text-transparent group-hover/sub-menu:text-accentPrimary"
+                          strokeWidth="2"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          className="lucide lucide-arrow-right text-transparent group-hover/sub-menu:text-accentPrimary"
                         >
                           <path d="M5 12h14"></path>
                           <path d="m12 5 7 7-7 7"></path>
@@ -795,7 +795,7 @@ const Navbar = () => {
                     <div>
                       <a
                         href="/heloc-calculator"
-                        class="px-5 py-3 hover:bg-backgroundSecondary group/sub-menu hover:rounded-base focus:bg-backgroundSecondary flex justify-between "
+                        className="px-5 py-3 hover:bg-backgroundSecondary group/sub-menu hover:rounded-base focus:bg-backgroundSecondary flex justify-between "
                       >
                         Calculate your Cash 💵
                         <svg
@@ -805,10 +805,10 @@ const Navbar = () => {
                           viewBox="0 0 24 24"
                           fill="none"
                           stroke="currentColor"
-                          stroke-width="2"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                          class="lucide lucide-arrow-right text-transparent group-hover/sub-menu:text-accentPrimary"
+                          strokeWidth="2"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          className="lucide lucide-arrow-right text-transparent group-hover/sub-menu:text-accentPrimary"
                         >
                           <path d="M5 12h14"></path>
                           <path d="m12 5 7 7-7 7"></path>
@@ -818,7 +818,7 @@ const Navbar = () => {
                     <div>
                       <a
                         href="/heloc-vs-cashout-refi-calculator"
-                        class="px-5 py-3 hover:bg-backgroundSecondary group/sub-menu hover:rounded-base focus:bg-backgroundSecondary flex justify-between "
+                        className="px-5 py-3 hover:bg-backgroundSecondary group/sub-menu hover:rounded-base focus:bg-backgroundSecondary flex justify-between "
                       >
                         HELOC vs. Cash-out Refinance
                         <svg
@@ -828,10 +828,10 @@ const Navbar = () => {
                           viewBox="0 0 24 24"
                           fill="none"
                           stroke="currentColor"
-                          stroke-width="2"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                          class="lucide lucide-arrow-right text-transparent group-hover/sub-menu:text-accentPrimary"
+                          strokeWidth="2"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          className="lucide lucide-arrow-right text-transparent group-hover/sub-menu:text-accentPrimary"
                         >
                           <path d="M5 12h14"></path>
                           <path d="m12 5 7 7-7 7"></path>
@@ -841,7 +841,7 @@ const Navbar = () => {
                     <div>
                       <a
                         href="/content"
-                        class="px-5 py-3 hover:bg-backgroundSecondary group/sub-menu hover:rounded-base focus:bg-backgroundSecondary flex justify-between "
+                        className="px-5 py-3 hover:bg-backgroundSecondary group/sub-menu hover:rounded-base focus:bg-backgroundSecondary flex justify-between "
                       >
                         Learning Center
                         <svg
@@ -851,10 +851,10 @@ const Navbar = () => {
                           viewBox="0 0 24 24"
                           fill="none"
                           stroke="currentColor"
-                          stroke-width="2"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                          class="lucide lucide-arrow-right text-transparent group-hover/sub-menu:text-accentPrimary"
+                          strokeWidth="2"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          className="lucide lucide-arrow-right text-transparent group-hover/sub-menu:text-accentPrimary"
                         >
                           <path d="M5 12h14"></path>
                           <path d="m12 5 7 7-7 7"></path>
@@ -865,19 +865,19 @@ const Navbar = () => {
                 </div>
               </div>
             </li>
-            <li class="mx-5 hidden xl:block">
-              <div class="group relative">
-                <span class="">
-                  <button class="rounded-full py-1 font-normal transition-all ease-in-out duration-300 h-12 px-4 text-textInversePrimary hover:bg-backgroundSecondary hover:text-textPrimary group-hover:bg-backgroundSecondary group-hover:text-textPrimary">
+            <li className="mx-5 hidden xl:block">
+              <div className="group relative">
+                <span className="">
+                  <button className="rounded-full py-1 font-normal transition-all ease-in-out duration-300 h-12 px-4 text-textInversePrimary hover:bg-backgroundSecondary hover:text-textPrimary group-hover:bg-backgroundSecondary group-hover:text-textPrimary">
                     Rates
                   </button>
                 </span>
-                <div class="absolute invisible left-0 right-0 pt-2 group-hover:visible">
-                  <div class="z-10 w-[22rem] rounded-base p-3 bg-white shadow-md">
+                <div className="absolute invisible left-0 right-0 pt-2 group-hover:visible">
+                  <div className="z-10 w-[22rem] rounded-base p-3 bg-white shadow-md">
                     <div>
                       <a
                         href="/mortgage-rates"
-                        class="px-5 py-3 hover:bg-backgroundSecondary group/sub-menu hover:rounded-base focus:bg-backgroundSecondary flex justify-between "
+                        className="px-5 py-3 hover:bg-backgroundSecondary group/sub-menu hover:rounded-base focus:bg-backgroundSecondary flex justify-between "
                       >
                         Purchase mortgage rates
                         <svg
@@ -887,10 +887,10 @@ const Navbar = () => {
                           viewBox="0 0 24 24"
                           fill="none"
                           stroke="currentColor"
-                          stroke-width="2"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                          class="lucide lucide-arrow-right text-transparent group-hover/sub-menu:text-accentPrimary"
+                          strokeWidth="2"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          className="lucide lucide-arrow-right text-transparent group-hover/sub-menu:text-accentPrimary"
                         >
                           <path d="M5 12h14"></path>
                           <path d="m12 5 7 7-7 7"></path>
@@ -900,7 +900,7 @@ const Navbar = () => {
                     <div>
                       <a
                         href="/refinance-rates"
-                        class="px-5 py-3 hover:bg-backgroundSecondary group/sub-menu hover:rounded-base focus:bg-backgroundSecondary flex justify-between "
+                        className="px-5 py-3 hover:bg-backgroundSecondary group/sub-menu hover:rounded-base focus:bg-backgroundSecondary flex justify-between "
                       >
                         Refinance rates
                         <svg
@@ -910,10 +910,10 @@ const Navbar = () => {
                           viewBox="0 0 24 24"
                           fill="none"
                           stroke="currentColor"
-                          stroke-width="2"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                          class="lucide lucide-arrow-right text-transparent group-hover/sub-menu:text-accentPrimary"
+                          strokeWidth="2"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          className="lucide lucide-arrow-right text-transparent group-hover/sub-menu:text-accentPrimary"
                         >
                           <path d="M5 12h14"></path>
                           <path d="m12 5 7 7-7 7"></path>
@@ -923,7 +923,7 @@ const Navbar = () => {
                     <div>
                       <a
                         href="/cash-out-refinance-rates"
-                        class="px-5 py-3 hover:bg-backgroundSecondary group/sub-menu hover:rounded-base focus:bg-backgroundSecondary flex justify-between "
+                        className="px-5 py-3 hover:bg-backgroundSecondary group/sub-menu hover:rounded-base focus:bg-backgroundSecondary flex justify-between "
                       >
                         Refinance cash-out rates
                         <svg
@@ -933,10 +933,10 @@ const Navbar = () => {
                           viewBox="0 0 24 24"
                           fill="none"
                           stroke="currentColor"
-                          stroke-width="2"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                          class="lucide lucide-arrow-right text-transparent group-hover/sub-menu:text-accentPrimary"
+                          strokeWidth="2"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          className="lucide lucide-arrow-right text-transparent group-hover/sub-menu:text-accentPrimary"
                         >
                           <path d="M5 12h14"></path>
                           <path d="m12 5 7 7-7 7"></path>
@@ -946,7 +946,7 @@ const Navbar = () => {
                     <div>
                       <a
                         href="/heloc-rates"
-                        class="px-5 py-3 hover:bg-backgroundSecondary group/sub-menu hover:rounded-base focus:bg-backgroundSecondary flex justify-between "
+                        className="px-5 py-3 hover:bg-backgroundSecondary group/sub-menu hover:rounded-base focus:bg-backgroundSecondary flex justify-between "
                       >
                         HELOC rates
                         <svg
@@ -956,10 +956,10 @@ const Navbar = () => {
                           viewBox="0 0 24 24"
                           fill="none"
                           stroke="currentColor"
-                          stroke-width="2"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                          class="lucide lucide-arrow-right text-transparent group-hover/sub-menu:text-accentPrimary"
+                          strokeWidth="2"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          className="lucide lucide-arrow-right text-transparent group-hover/sub-menu:text-accentPrimary"
                         >
                           <path d="M5 12h14"></path>
                           <path d="m12 5 7 7-7 7"></path>
@@ -969,7 +969,7 @@ const Navbar = () => {
                     <div>
                       <a
                         href="/va-loan-rates"
-                        class="px-5 py-3 hover:bg-backgroundSecondary group/sub-menu hover:rounded-base focus:bg-backgroundSecondary flex justify-between "
+                        className="px-5 py-3 hover:bg-backgroundSecondary group/sub-menu hover:rounded-base focus:bg-backgroundSecondary flex justify-between "
                       >
                         Purchase VA rates
                         <svg
@@ -979,10 +979,10 @@ const Navbar = () => {
                           viewBox="0 0 24 24"
                           fill="none"
                           stroke="currentColor"
-                          stroke-width="2"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                          class="lucide lucide-arrow-right text-transparent group-hover/sub-menu:text-accentPrimary"
+                          strokeWidth="2"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          className="lucide lucide-arrow-right text-transparent group-hover/sub-menu:text-accentPrimary"
                         >
                           <path d="M5 12h14"></path>
                           <path d="m12 5 7 7-7 7"></path>
@@ -993,19 +993,19 @@ const Navbar = () => {
                 </div>
               </div>
             </li>
-            <li class="mx-5 hidden xl:block">
-              <div class="group relative">
-                <span class="">
-                  <button class="rounded-full py-1 font-normal transition-all ease-in-out duration-300 h-12 px-4 text-textInversePrimary hover:bg-backgroundSecondary hover:text-textPrimary group-hover:bg-backgroundSecondary group-hover:text-textPrimary">
+            <li className="mx-5 hidden xl:block">
+              <div className="group relative">
+                <span className="">
+                  <button className="rounded-full py-1 font-normal transition-all ease-in-out duration-300 h-12 px-4 text-textInversePrimary hover:bg-backgroundSecondary hover:text-textPrimary group-hover:bg-backgroundSecondary group-hover:text-textPrimary">
                     Better+
                   </button>
                 </span>
-                <div class="absolute invisible left-0 right-0 pt-2 group-hover:visible">
-                  <div class="z-10 w-[22rem] rounded-base p-3 bg-white shadow-md">
+                <div className="absolute invisible left-0 right-0 pt-2 group-hover:visible">
+                  <div className="z-10 w-[22rem] rounded-base p-3 bg-white shadow-md">
                     <div>
                       <a
                         href="https://www.bettercover.com/"
-                        class="px-5 py-3 hover:bg-backgroundSecondary group/sub-menu hover:rounded-base focus:bg-backgroundSecondary flex justify-between "
+                        className="px-5 py-3 hover:bg-backgroundSecondary group/sub-menu hover:rounded-base focus:bg-backgroundSecondary flex justify-between "
                       >
                         Get Insurance
                         <svg
@@ -1015,10 +1015,10 @@ const Navbar = () => {
                           viewBox="0 0 24 24"
                           fill="none"
                           stroke="currentColor"
-                          stroke-width="2"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                          class="lucide lucide-arrow-right text-transparent group-hover/sub-menu:text-accentPrimary"
+                          strokeWidth="2"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          className="lucide lucide-arrow-right text-transparent group-hover/sub-menu:text-accentPrimary"
                         >
                           <path d="M5 12h14"></path>
                           <path d="m12 5 7 7-7 7"></path>
@@ -1028,7 +1028,7 @@ const Navbar = () => {
                     <div>
                       <a
                         href="/title"
-                        class="px-5 py-3 hover:bg-backgroundSecondary group/sub-menu hover:rounded-base focus:bg-backgroundSecondary flex justify-between "
+                        className="px-5 py-3 hover:bg-backgroundSecondary group/sub-menu hover:rounded-base focus:bg-backgroundSecondary flex justify-between "
                       >
                         Title and Closing
                         <svg
@@ -1038,10 +1038,10 @@ const Navbar = () => {
                           viewBox="0 0 24 24"
                           fill="none"
                           stroke="currentColor"
-                          stroke-width="2"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                          class="lucide lucide-arrow-right text-transparent group-hover/sub-menu:text-accentPrimary"
+                          strokeWidth="2"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          className="lucide lucide-arrow-right text-transparent group-hover/sub-menu:text-accentPrimary"
                         >
                           <path d="M5 12h14"></path>
                           <path d="m12 5 7 7-7 7"></path>
@@ -1051,7 +1051,7 @@ const Navbar = () => {
                     <div>
                       <a
                         href="/b/attorney-match"
-                        class="px-5 py-3 hover:bg-backgroundSecondary group/sub-menu hover:rounded-base focus:bg-backgroundSecondary flex justify-between "
+                        className="px-5 py-3 hover:bg-backgroundSecondary group/sub-menu hover:rounded-base focus:bg-backgroundSecondary flex justify-between "
                       >
                         Better Attorney Match
                         <svg
@@ -1061,10 +1061,10 @@ const Navbar = () => {
                           viewBox="0 0 24 24"
                           fill="none"
                           stroke="currentColor"
-                          stroke-width="2"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                          class="lucide lucide-arrow-right text-transparent group-hover/sub-menu:text-accentPrimary"
+                          strokeWidth="2"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          className="lucide lucide-arrow-right text-transparent group-hover/sub-menu:text-accentPrimary"
                         >
                           <path d="M5 12h14"></path>
                           <path d="m12 5 7 7-7 7"></path>
@@ -1074,7 +1074,7 @@ const Navbar = () => {
                     <div>
                       <a
                         href="/content"
-                        class="px-5 py-3 hover:bg-backgroundSecondary group/sub-menu hover:rounded-base focus:bg-backgroundSecondary flex justify-between "
+                        className="px-5 py-3 hover:bg-backgroundSecondary group/sub-menu hover:rounded-base focus:bg-backgroundSecondary flex justify-between "
                       >
                         Learning Center
                         <svg
@@ -1084,10 +1084,10 @@ const Navbar = () => {
                           viewBox="0 0 24 24"
                           fill="none"
                           stroke="currentColor"
-                          stroke-width="2"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                          class="lucide lucide-arrow-right text-transparent group-hover/sub-menu:text-accentPrimary"
+                          strokeWidth="2"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          className="lucide lucide-arrow-right text-transparent group-hover/sub-menu:text-accentPrimary"
                         >
                           <path d="M5 12h14"></path>
                           <path d="m12 5 7 7-7 7"></path>
@@ -1097,10 +1097,10 @@ const Navbar = () => {
                     <div>
                       <a
                         href="/b/better-real-estate-partner-agents"
-                        class="px-5 py-3 hover:bg-backgroundSecondary group/sub-menu hover:rounded-base focus:bg-backgroundSecondary flex justify-between "
+                        className="px-5 py-3 hover:bg-backgroundSecondary group/sub-menu hover:rounded-base focus:bg-backgroundSecondary flex justify-between "
                       >
                         Better Agent Match
-                        <span class="leading-body m-0 p-0 text-left text-sm ml-2 inline-block rounded-full bg-graph4Tertiary px-4 font-bold text-backgroundInversePrimary">
+                        <span className="leading-body m-0 p-0 text-left text-sm ml-2 inline-block rounded-full bg-graph4Tertiary px-4 font-bold text-backgroundInversePrimary">
                           For Agents
                         </span>
                         <svg
@@ -1110,10 +1110,10 @@ const Navbar = () => {
                           viewBox="0 0 24 24"
                           fill="none"
                           stroke="currentColor"
-                          stroke-width="2"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                          class="lucide lucide-arrow-right text-transparent group-hover/sub-menu:text-accentPrimary"
+                          strokeWidth="2"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          className="lucide lucide-arrow-right text-transparent group-hover/sub-menu:text-accentPrimary"
                         >
                           <path d="M5 12h14"></path>
                           <path d="m12 5 7 7-7 7"></path>
@@ -1123,10 +1123,10 @@ const Navbar = () => {
                     <div>
                       <a
                         href="/b/duo"
-                        class="px-5 py-3 hover:bg-backgroundSecondary group/sub-menu hover:rounded-base focus:bg-backgroundSecondary flex justify-between "
+                        className="px-5 py-3 hover:bg-backgroundSecondary group/sub-menu hover:rounded-base focus:bg-backgroundSecondary flex justify-between "
                       >
                         Better Duo
-                        <span class="leading-body m-0 p-0 text-left text-sm ml-2 inline-block rounded-full bg-graph4Tertiary px-4 font-bold text-backgroundInversePrimary">
+                        <span className="leading-body m-0 p-0 text-left text-sm ml-2 inline-block rounded-full bg-graph4Tertiary px-4 font-bold text-backgroundInversePrimary">
                           For Agents
                         </span>
                         <svg
@@ -1136,10 +1136,10 @@ const Navbar = () => {
                           viewBox="0 0 24 24"
                           fill="none"
                           stroke="currentColor"
-                          stroke-width="2"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                          class="lucide lucide-arrow-right text-transparent group-hover/sub-menu:text-accentPrimary"
+                          strokeWidth="2"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          className="lucide lucide-arrow-right text-transparent group-hover/sub-menu:text-accentPrimary"
                         >
                           <path d="M5 12h14"></path>
                           <path d="m12 5 7 7-7 7"></path>
@@ -1152,15 +1152,15 @@ const Navbar = () => {
             </li>
           </ul>
         </div>
-        <ul class="flex items-center gap-3 lg:gap-6">
-          <li class="">
-            <div class="group min-[520px]:relative">
-              <div class="transition-all ease-in-out duration-300 border rounded-full p-2 md:p-3.5 border-strokeBorder group-hover:bg-backgroundSecondary group-hover:border-backgroundSecondary">
+        <ul className="flex items-center gap-3 lg:gap-6">
+          <li className="">
+            <div className="group min-[520px]:relative">
+              <div className="transition-all ease-in-out duration-300 border rounded-full p-2 md:p-3.5 border-strokeBorder group-hover:bg-backgroundSecondary group-hover:border-backgroundSecondary">
                 <svg
                   width="19"
                   height="18"
                   viewBox="0 0 19 18"
-                  class="transition-all ease-in-out group-hover:[&amp;_path]:fill-interactiveForegroundInversePrimary [&amp;_path]:fill-white h-3 w-3 md:h-4 md:w-4"
+                  className="transition-all ease-in-out group-hover:[&amp;_path]:fill-interactiveForegroundInversePrimary [&amp;_path]:fill-white h-3 w-3 md:h-4 md:w-4"
                   fill="none"
                   xmlns="http://www.w3.org/2000/svg"
                 >
@@ -1170,11 +1170,11 @@ const Navbar = () => {
                   ></path>
                 </svg>
               </div>
-              <div class="absolute invisible left-1 min-[520px]:left-auto right-0 pt-2 group-hover:visible">
-                <div class=" bg-backgroundTertiary px-10 py-7 rounded-base w-80 shadow-md">
+              <div className="absolute invisible left-1 min-[520px]:left-auto right-0 pt-2 group-hover:visible">
+                <div className=" bg-backgroundTertiary px-10 py-7 rounded-base w-80 shadow-md">
                   Call us anytime at{" "}
                   <a
-                    class="underline hover:text-textHighlight"
+                    className="underline hover:text-textHighlight"
                     href="tel:4155238837"
                   >
                     415-523-8837
@@ -1183,17 +1183,17 @@ const Navbar = () => {
               </div>
             </div>
           </li>
-          <li class="hidden md:block">
+          <li className="hidden md:block">
             <a
-              class="inline-flex items-center justify-center whitespace-nowrap rounded-full text-base leading-normal disabled:pointer-events-none disabled:opacity-50 bg-transparent py-5 w-auto font-normal transition-all ease-in-out duration-300 h-12 px-4 text-textInversePrimary hover:bg-backgroundSecondary hover:text-textPrimary group-hover:bg-backgroundSecondary group-hover:text-textPrimary"
+              className="inline-flex items-center justify-center whitespace-nowrap rounded-full text-base leading-normal disabled:pointer-events-none disabled:opacity-50 bg-transparent py-5 w-auto font-normal transition-all ease-in-out duration-300 h-12 px-4 text-textInversePrimary hover:bg-backgroundSecondary hover:text-textPrimary group-hover:bg-backgroundSecondary group-hover:text-textPrimary"
               href="/account/sign-in"
             >
               Sign in
             </a>
           </li>
-          <li class="transition-all duration-500 ease-in hidden">
+          <li className="transition-all duration-500 ease-in hidden">
             <a
-              class="inline-flex items-center justify-center whitespace-nowrap rounded-full text-base font-bold leading-normal disabled:pointer-events-none disabled:opacity-50 transition-all ease-in-out duration-200 bg-graphTertiary text-interactiveForegroundInversePrimary hover:bg-accentPrimary hover:text-interactiveForegroundPrimary py-3 w-auto h-8 px-4 md:px-6 md:h-12"
+              className="inline-flex items-center justify-center whitespace-nowrap rounded-full text-base font-bold leading-normal disabled:pointer-events-none disabled:opacity-50 transition-all ease-in-out duration-200 bg-graphTertiary text-interactiveForegroundInversePrimary hover:bg-accentPrimary hover:text-interactiveForegroundPrimary py-3 w-auto h-8 px-4 md:px-6 md:h-12"
               href="/start"
             >
               Get started
@@ -1201,7 +1201,7 @@ const Navbar = () => {
           </li>
           <li>
             <button
-              class="xl:hidden flex items-center font-normal transition-all ease-in-out duration-300 group-hover:bg-backgroundSecondary group-hover:text-textPrimary text-textInversePrimary hover:text-textInversePrimary hover:bg-inherit"
+              className="xl:hidden flex items-center font-normal transition-all ease-in-out duration-300 group-hover:bg-backgroundSecondary group-hover:text-textPrimary text-textInversePrimary hover:text-textInversePrimary hover:bg-inherit"
               aria-label="open mobile nav bar"
             >
               <svg
@@ -1211,10 +1211,10 @@ const Navbar = () => {
                 viewBox="0 0 24 24"
                 fill="none"
                 stroke="currentColor"
-                stroke-width="2"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                class="lucide lucide-menu "
+                strokeWidth="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                className="lucide lucide-menu "
               >
                 <line x1="4" x2="20" y1="12" y2="12"></line>
                 <line x1="4" x2="20" y1="6" y2="6"></line>
